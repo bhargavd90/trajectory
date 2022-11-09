@@ -50,4 +50,16 @@ class Firstfloor:
 
         st.markdown("___")
 
-        plot_tragectory()
+        column_2_0, column_2_1 = st.columns(2)
+        with column_2_0:
+            plot_tragectory()
+
+        with column_2_1:
+            st.subheader(" ")
+            st.subheader(" ")
+            st.subheader(":point_right: Single linkage clustering")
+            st.subheader(":point_right: Distance Threshold : 47")
+            st.subheader(":point_right: Min 5 points in trajectory")
+            st.subheader(":point_right: 6 Persons trajectories")
+
+

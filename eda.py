@@ -16,7 +16,7 @@ def plot_data(df: pd.DataFrame) -> None:
 
 
 def plot_clustering(df: pd.DataFrame) -> None:
-    st.header("Single Linkage Clustering")
+    st.header("Clustering")
     df_clustering = df.drop("timestamp", axis=1)
     y = pdist(df_clustering)
     Z = single(y)
@@ -39,7 +39,7 @@ class EDA:
         self.dataframe = dataframe
 
     def eda_app(self):
-        st.header("People Analytics")
+        st.header("Crowd Analytics")
 
         column_0_0, column_0_1 = st.columns(2)
         with column_0_0:
