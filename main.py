@@ -9,9 +9,6 @@ from datetime import datetime
 image = Image.open('Ariadne-Maps-GmbH.jpeg')
 
 
-# https://www.webfx.com/tools/emoji-cheat-sheet/
-
-
 def do_stuff_on_page_load():
     # To set the page layout to wide on page load
     st.set_page_config(layout="wide")
