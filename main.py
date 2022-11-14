@@ -6,7 +6,7 @@ from firstfloor import Firstfloor
 from secondfloor import Secondfloor
 from combined import Combined
 from datetime import datetime
-image = Image.open('Ariadne-Maps-GmbH.jpeg')
+image = Image.open('images/Ariadne-Maps-GmbH.jpeg')
 
 
 def do_stuff_on_page_load():
@@ -27,7 +27,7 @@ do_stuff_on_page_load()
 # st.sidebar.title(":mailbox_closed: Metyis :mailbox_closed:")
 st.sidebar.markdown("##")
 
-file_path_main = "centres.csv"
+file_path_main = "input/centres.csv"
 
 df = get_data(file_path_main)
 

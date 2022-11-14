@@ -5,7 +5,7 @@ from scipy.cluster.hierarchy import complete, fcluster, single, ward, average
 from scipy.spatial.distance import pdist
 from PIL import Image
 
-image = Image.open('second_floor.png')
+image = Image.open('images/second_floor.png')
 
 
 def plot_data(df: pd.DataFrame) -> None:
