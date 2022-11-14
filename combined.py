@@ -33,7 +33,7 @@ def plot_tragectory() -> None:
 
 class Combined:
 
-    # First page
+    # Third page
 
     def __init__(self, dataframe):
         self.dataframe = dataframe

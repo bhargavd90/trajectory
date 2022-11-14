@@ -33,7 +33,7 @@ def plot_tragectory() -> None:
 
 class Secondfloor:
 
-    # First page
+    # Second page
 
     def __init__(self, dataframe):
         self.dataframe = dataframe

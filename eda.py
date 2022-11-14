@@ -32,8 +32,6 @@ def plot_clustering(df: pd.DataFrame) -> None:
 
 class EDA:
 
-    # First page
-
     def __init__(self, dataframe):
         self.dataframe = dataframe
 

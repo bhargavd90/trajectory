@@ -16,7 +16,7 @@ def do_stuff_on_page_load():
 
 @st.cache
 def get_data(path: str) -> pd.DataFrame:
-    # Fetches the data from the given url and returns a dataframe
+    # Fetches the data from the given path and returns a dataframe
     dataframe = pd.read_csv(path, header=None)
     dataframe[3] = [datetime.fromtimestamp(x) for x in dataframe[3]]
     dataframe.columns = ["x", "y", "depth", "timestamp"]
@@ -24,7 +24,7 @@ def get_data(path: str) -> pd.DataFrame:
 
 
 do_stuff_on_page_load()
-# st.sidebar.title(":mailbox_closed: Metyis :mailbox_closed:")
+
 st.sidebar.markdown("##")
 
 file_path_main = "input/centres.csv"
