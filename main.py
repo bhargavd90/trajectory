@@ -52,6 +52,4 @@ elif plot_type == "Second Floor":
 elif plot_type == "Combined":
     combined = Combined(df)
     combined.combined_app()
-# else:
-#     future_work = Future()
-#     future_work.future_app()
+

@@ -30,7 +30,6 @@ def plot_clustering(df: pd.DataFrame) -> None:
         st.session_state.df_clustering = df_clustering
 
 
-
 class EDA:
 
     # First page
@@ -55,8 +54,6 @@ class EDA:
 
         with column_1_1:
             plot_clustering(self.dataframe)
-
-
 
         st.markdown("___")
 
